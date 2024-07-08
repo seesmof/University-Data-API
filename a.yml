@@ -1,0 +1,25 @@
+Class_Time:
+  number: int
+  time: Time
+
+study year:
+  disciplines:
+    name 
+    short 
+    control 
+    score 
+    teachers: list[Teacher]
+  classes:
+    discipline name 
+    day 
+    type: str ["Чисельник" | "Знаменник" | "Both"]
+    time
+    link
+    passcode 
+
+Year:
+  disciplines: list[Discipline]
+
+Discipline:
+  full_name: str
+  teachers: list[Teacher]
