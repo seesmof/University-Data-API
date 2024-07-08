@@ -1,6 +1,6 @@
-Class_Time:
+Time:
   number: int
-  time: Time
+  time: str
 
 study year:
   disciplines:
